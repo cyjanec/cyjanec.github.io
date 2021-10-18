@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Remote-Controlled Toy Car | Chih-Yi Jane Chen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>Hello! I'm Chih-Yi Jane Chen</strong>, a<br />
+					junior in mechanical engineering<br />
+					at Purdue University.
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Remote-Controlled Toy Car</h2>
+						</header>
+						<p>FALL 2021 - Created as part of ME 444: Toy Design, this remote-controlled toy car is my first experience creating a mechanical system that moves together.</p>
+						<img src="images/fulls/toycar-main.jpg" class="image fit" alt="" />
+						
+						<p>I individually designed the car's steering mechanism based on the Ackerman steering linkage system. I also conducted engineering modeling to determine the servo motor maximum angle range to avoid interference between the wheel and chassis.</p>
+
+						<h4>The Ackerman Steering Mechanism</h4>
+						<p>I decided to implement the Ackerman steering mechanism after researching different designs in order to maximize the strength and reliability of parts, as we were limited to creating our own parts through 3D printing. The linkage consists of a spindle mount (light blue), bell-crank link (green), knuckle arms (red), and a servo arm (dark blue) that interfaces with the servo motor, and all parts were created in Creo Parametric.</p>
+
+						<p><span class="image left"><img src="images/fulls/toycar-angle.jpg" class="image fit" alt="" /></span>I also completed interference analysis to determine the maximum servo motor angles. Calculations were initially done by hand, then verified using Creo's measurement and global interference toolkits. Maximum angle was determined to be 36 degrees, though the limiting angle was set to be 30 degrees to provide a safety margin.</p>
+
+						<p>The two knuckle arms should intersect at the center of the real axle in an Ackerman steering linkage design. Beyond this, being a part of Purdue Society of Women Engineers' Grand Prix team taught me about the basics of racecar engineering, so I designed the car to be self-centering using a small positive caster angle.</p>
+						
+					</section>
+
+				<!-- Four -->
+					<section id="four">
+						<h2>Get In Touch</h2>
+						<div class="row">
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="mailto: chihyichen18@gmail.com">chihyichen18@gmail.com</a>
+									</li>
+									<li>
+										<h3 class="icon solid fa-landmark"><span class="label">US Address</span></h3>
+										West Lafayette, IN 47906<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Taiwan Address</span></h3>
+										Hsinchu City, Taiwan
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/chihyi-jane-chen/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto: chihyichen18@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
